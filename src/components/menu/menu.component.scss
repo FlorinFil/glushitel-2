@@ -1,0 +1,40 @@
+.top-bar {
+    width: 100%;
+    box-shadow: 0px 0px 5px grey;
+    // padding: 1rem;
+    background-color: #00000010;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+
+    justify-content: space-around;
+
+
+    nav {
+
+        display: flex;
+
+        a.nav-link {
+            // margin: 1rem;
+            padding: 1rem;
+            // border: 1px solid grey;
+            // border-radius: 1rem;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            display: block;
+    
+            &.active {
+                background-color: #00000010;
+            }
+        }
+    }
+
+    button {
+        &:first-of-type {
+            margin-left: 1rem;
+        }
+        // border-radius: 50%;
+        padding: 1rem;
+    }
+}
