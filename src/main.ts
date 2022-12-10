@@ -7,6 +7,7 @@ import { environment } from './environments/environment';
 if (environment.production) {
   enableProdMode();
 }
+alert(environment.backendAddress);
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));

@@ -1,14 +1,14 @@
 <div class="top-bar">
     <nav>
-        <a class="nav-link" routerLinkActive="active" routerLink="/home">home</a>
+        <a class="nav-link" routerLinkActive="active" routerLink="/home">{{ 'menu.home' | translate}}</a>
         <a class="nav-link" routerLinkActive="active" routerLink="/gallery">gallery</a>
         <a class="nav-link" routerLinkActive="active" routerLink="/catalog">catalog</a>
         <a class="nav-link" routerLinkActive="active" routerLink="/contacts">contacts</a>
     </nav>
     <div>
-        <button>en</button>
-        <button>ru</button>
-        <button>ro</button>
+        <button [ngClass]="{'c': getLang() == 'en'} " (click)="useTranslation('en')">en</button>
+        <button [ngClass]="{'c': getLang() == 'ru'} " (click)="useTranslation('ru')">ru</button>
+        <button [ngClass]="{'c': getLang() == 'ro'} " (click)="useTranslation('ro')">ro</button>
     </div>
 </div>
 
