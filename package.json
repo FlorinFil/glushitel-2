@@ -5,7 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:git": "ng build --base-href \"https://github.com/FlorinFil/glushitel-2\"",
+    "build:git": " ng build --base-href \"https://github.com/FlorinFil/glushitel-2\" --prod --source-map --build-optimizer",
+    "deploy": "npx angular-cli-ghpages --dir=dist/glushitel",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
