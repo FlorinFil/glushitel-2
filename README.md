@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+how to deploy to github: 
+after you do changes (also it's goot to push them, but we talk about local changes)
+  run "npm run build:git"
+    then run "npm run deploy"
+      and the changes should deploy and you should see them on the link https://florinfil.github.io/glushitel-2/
