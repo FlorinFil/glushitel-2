@@ -1,7 +1,10 @@
 {
-    "common.cancel": "Anuleaza",
+    "common.cancel": "Отмена",
     "menu.home": "Домой",
-    "menu.contacts": "Contacte",
-    "menu.gallery": "Galerie",
-    "menu.catalog": "Каталог"
+    "menu.contacts": "Контакты",
+    "menu.gallery": "Галерея",
+    "menu.catalog": "Каталог",
+    "CONTACT_US": "Свяжитесь с нами!",
+    "WELCOME_MESSAGE": "Приветствуем на сайте  нашего сервиса!\n\n- Глушители\n- Шиномонтаж\n- Кондиционеры",
+    "": ""
 }
