@@ -1,23 +1,28 @@
 .home-about {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  background-color: rgb(182, 186, 200);
+  background-image: url('/assets/vihlopnaya_sistema.jpg');
+  background-size: cover;
 
   .welcome-message {
     text-align: center;
     margin: 2rem;
+    text-shadow: 0 0 5px black, 0 0 10px black;
+    color: white;
     white-space: pre;
     width: 100%;
     font-size: 1.5rem;
     line-height: 2rem;
+
+    a {
+      text-shadow: none;
+      box-shadow: 0 0 10px black;;
+    }
   }
 
-  .home-img {
-    width: 50%;
-    // height: 100%;
-  }
 
 }
 
@@ -30,4 +35,19 @@
     flex-grow: 1;
     width: 1rem;
   }
+}
+
+@media screen and (max-width: 800px) {
+  .home-about {
+    .welcome-message {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+    // flex-direction: column;
+  }
+  .logos {
+    display: none;
+    // flex-direction: column;
+  }
+
 }

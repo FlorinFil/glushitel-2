@@ -33,3 +33,14 @@
   }
 
 }
+
+
+@media screen and (max-width: 500px) {
+  .contacts-container {
+    flex-direction: column;
+  }
+  .contact {
+    // width: 100%;
+  }
+
+}
