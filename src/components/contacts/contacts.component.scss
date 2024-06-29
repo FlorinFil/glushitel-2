@@ -1,0 +1,35 @@
+.main-message {
+  text-align: center;
+  margin: 2rem;
+}
+
+.contacts-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+
+  .contact {
+    display: flex;
+    // box-shadow: 0 0 2rem  lightgrey;
+    // border-radius: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+
+    background-color: #00000010;
+    border-radius: 2rem;
+
+    .contact-img {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+
+}

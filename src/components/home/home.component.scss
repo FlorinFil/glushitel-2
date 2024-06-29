@@ -1,0 +1,33 @@
+.home-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: rgb(182, 186, 200);
+
+  .welcome-message {
+    text-align: center;
+    margin: 2rem;
+    white-space: pre;
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .home-img {
+    width: 50%;
+    // height: 100%;
+  }
+
+}
+
+.logos {
+  display: flex;
+  margin: 2rem;
+  justify-content: space-between;
+  gap: 2rem;
+  * {
+    flex-grow: 1;
+    width: 1rem;
+  }
+}

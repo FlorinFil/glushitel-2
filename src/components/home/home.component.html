@@ -1,1 +1,28 @@
-<p>home works!</p>
+
+<div class="home-about">
+  <div class="welcome-message">
+    {{"WELCOME_MESSAGE" | translate}}
+    <br/>
+    <br/>
+    <a mat-flat-button color="secondary" [routerLink]="['/catalog']" routerLinkActive="router-link-active" >{{"menu.catalog" | translate}}</a>
+  </div>
+  <img class="home-img" src="assets/vihlopnaya_sistema.jpg">
+
+</div>
+
+<div class="logos">
+  <img src="assets/volkswagen-logos.jpg">
+  <img src="assets/toyota-logos.jpg ">
+  <img src="assets/porsche-logos.jpg ">
+  <img src="assets/nissan-logos.jpg ">
+  <img src="assets/mercedes-benz-logos.jpg ">
+  <img src="assets/hyundai-logos.jpg ">
+  <img src="assets/honda-logos.jpg ">
+  <img src="assets/ford-logos.jpg ">
+  <img src="assets/bmw-logos.jpg ">
+  <img src="assets/audi-logos.jpg">
+</div>
+
+<app-contacts></app-contacts>
+<app-gallery></app-gallery>
+<app-catalog></app-catalog>

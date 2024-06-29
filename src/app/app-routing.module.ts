@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'gallery', component: GalleryComponent },
   { path: 'catalog', component: CatalogComponent },
   { path: 'contacts', component: ContactsComponent },
+  { path: '**', redirectTo: '/home'},
 ];
 
 @NgModule({
