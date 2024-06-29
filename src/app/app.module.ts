@@ -10,8 +10,8 @@ import { GalleryComponent } from '../components/gallery/gallery.component';
 import { CatalogComponent } from '../components/catalog/catalog.component';
 import { ContactsComponent } from '../components/contacts/contacts.component';
 import { MatStepperModule } from '@angular/material/stepper';
-import { MatInputModule } from '@angular/material/input';
-import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatLegacyInputModule as MatInputModule } from '@angular/material/legacy-input';
+import { MatLegacyFormFieldModule as MatFormFieldModule } from '@angular/material/legacy-form-field';
 
 
 // import ngx-translate and the http loader
@@ -19,7 +19,7 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { MatButtonModule } from '@angular/material/button';
+import { MatLegacyButtonModule as MatButtonModule } from '@angular/material/legacy-button';
 @NgModule({
   declarations: [
     AppComponent,
