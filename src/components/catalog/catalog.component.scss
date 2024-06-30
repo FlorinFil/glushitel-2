@@ -1,12 +1,20 @@
 .catalog-page-title {
-
+  text-align: center;
+  margin: 2rem;
 }
 
 .catalog-container {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  gap: 1rem;
   .catalog-category {
-    .category-title {    }
+    white-space: pre;
+    width: max-content;
+    .category-title {
+      text-align: center;
+    }
   }
 }
 
