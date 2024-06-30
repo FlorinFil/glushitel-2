@@ -1,0 +1,12 @@
+@import 'lightgallery/scss/lightgallery';
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.4/css/lightgallery.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.4/css/lg-zoom.css');
+// copies present in the projec tin case this will not work anymore (pictures will not open)
+// demo: https://stackblitz.com/edit/lightgallery-angular-update-slides?file=src%2Fapp%2Fapp.component.html
+
+.gallery-small-item {
+  width: 10rem;
+  height: 10rem;
+  object-fit: fit;
+  margin: .5rem;
+}

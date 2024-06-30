@@ -1,1 +1,11 @@
-gallery
+<div class="gallery-container">
+
+  <lightgallery [settings]="settings">
+    @for (link of links; track link) {
+      <a href="{{link}}" className="gallery-item">
+        <img alt="{{link}}" src="{{link}}" className="img-responsive" class="gallery-small-item" />
+      </a>
+    }
+  </lightgallery>
+
+</div>

@@ -12,6 +12,7 @@ import { ContactsComponent } from '../components/contacts/contacts.component';
 import { MatStepperModule } from '@angular/material/stepper';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { LightgalleryModule } from 'lightgallery/angular';
 
 
 // import ngx-translate and the http loader
@@ -20,30 +21,35 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
-@NgModule({ declarations: [
-        AppComponent,
-        MenuComponent,
-        HomeComponent,
-        ContactsComponent,
-        CatalogComponent,
-        GalleryComponent,
-    ],
-    bootstrap: [AppComponent], imports: [FormsModule,
-        MatStepperModule,
-        MatFormFieldModule,
-        ReactiveFormsModule,
-        MatInputModule,
-        MatButtonModule,
-        BrowserModule,
-        AppRoutingModule,
-        BrowserAnimationsModule,
-        TranslateModule.forRoot({
-            loader: {
-                provide: TranslateLoader,
-                useFactory: HttpLoaderFactory,
-                deps: [HttpClient]
-            }
-        })], providers: [provideHttpClient(withInterceptorsFromDi())] })
+@NgModule({
+  declarations: [
+    AppComponent,
+    MenuComponent,
+    HomeComponent,
+    ContactsComponent,
+    CatalogComponent,
+    GalleryComponent,
+  ],
+  bootstrap: [AppComponent],
+  imports: [
+    FormsModule,
+    MatStepperModule,
+    LightgalleryModule,
+    MatFormFieldModule,
+    ReactiveFormsModule,
+    MatInputModule,
+    MatButtonModule,
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })], providers: [provideHttpClient(withInterceptorsFromDi())]
+})
 
 
 
