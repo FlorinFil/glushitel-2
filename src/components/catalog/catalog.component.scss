@@ -1,0 +1,19 @@
+.catalog-page-title {
+
+}
+
+.catalog-container {
+  display: flex;
+  flex-wrap: wrap;
+  .catalog-category {
+    .category-title {    }
+  }
+}
+
+
+@media screen and (max-width: 800px){
+  .catalog-container {
+    flex-direction: column;
+  }
+
+}

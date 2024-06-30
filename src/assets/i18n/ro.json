@@ -5,6 +5,15 @@
     "menu.gallery": "Galerie",
     "menu.catalog": "Catalog",
     "CONTACT_US": "Contactează-ne!",
-    "WELCOME_MESSAGE": "Bun venit pe site-ul principal al serviciului nostru de silențioase!\nNe specializăm în sisteme de evacuare de înaltă calitate pentru toate tipurile de vehicule.\nInovațiile noastre reduc zgomotul și îmbunătățesc performanțele ecologice fără a compromite eficiența.\nIndiferent dacă sunteți proprietari particulari sau clienți corporativi, oferim soluții fiabile.\nAlegeți calitate și profesionalism!"
-
+    "WELCOME_MESSAGE": "Bun venit pe site-ul service-ului nostru!\n\n- Esapament\n- Sudură\n- Vulcanizare\n- Aer Conditionat",
+    "CATALOG.TITLE": "Serviciile noastre",
+    "CATALOG.WELD.TITLE": "Sudură",
+    "CATALOG.WELD.LIST": "- Sisteme de esapament\n- Argon\n- Radiatoare\n- Rezervoare",
+    "CATALOG.EXHAUST.TITLE": "Esapament",
+    "CATALOG.EXHAUST.LIST" : "- Reparatie\n- Diagnostica\n- Upgrade\n- Tobe\n- Inlocuire",
+    "CATALOG.TYRE.TITLE": "Vulcanizare",
+    "CATALOG.TYRE.LIST": "- Balansare\n- Reparatie\n- Inlocuire\n- Montare",
+    "CATALOG.AC.TITLE": "Aer conditionat",
+    "CATALOG.AC.LIST": "- Diagnostica\n- Freon\n- Reparatie\n- Inlocuire",
+    "":""
 }
